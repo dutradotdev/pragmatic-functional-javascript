@@ -1,6 +1,6 @@
 <h2> A segunda chance </h2>
 
-<quote> E deus disse, "deixe que haja funções", e houveram funções. </quote>
+<blockquote> E deus disse, "deixe que haja funções", e houveram funções. </blockquote>
 
 No começo, computadores eram muito lentos, mais lento que rodas Android Studio na sua máquina com 2GB de RAM! Quando o primeiro computador físico apareceu e as linguagens de programação começaram a ser projetadas e implementadas, haviam principalmente 2 mindsets:
     1. Começar da arquitetura Von Neumann e <b>adicionar abstração</b>;
@@ -15,7 +15,7 @@ Um monte de linguagens de programação modernas suportam bem programação func
 <h2>Por que programação funcional?</h2>
 Se programação imperativa e outros paradigmas, como orientação a objetos, fossem boas o suficiente, por que teríamos que aprender uma nova forma de codificar? A resposta é: sobrevivência. Orientação a objetos não pode nos salvar do mostro da nuvem mais. Problemas mais complexos surgiram e a programação funcional soluciona eles muito bem. Programação funcional não é "apenas outra sintaxe" como algumas pessoas pensam. É outra mentalidade e um modo declarativo de resolver problemas. Enquanto na programação imperativa você especifica passos e como as coisas devem acontecer, na declarativa (funcional e lógica) programação você especifica o que deve ser feito e o computador decide a melhor forma de fazê-lo. Nós evoluímos muito para fazer o trabalho que um computador consiga fazer milhares de vezes melhor do que nós.
 
-<h4>Testabilidade e manutenção<h4>
+<h4>Testabilidade e manutenção</h4>
 Bases de códigos modulares e funcionais são a forma mais fácil de testar e ter uma alta cobertura nos testes unitários. As coisas são muito bem isoladas e independentes, e por seguirem todos os principais princípios você obtém programas que trabalham bem em conjunto e tem menos bugs
 
 <h4>Paralelismo</h4>
