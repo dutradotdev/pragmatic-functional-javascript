@@ -2,7 +2,7 @@
 
 <blockquote> E deus disse, "deixe que haja funções", e houveram funções. </blockquote>
 
-<p>No começo, computadores eram muito lentos, mais lento que rodas Android Studio na sua máquina com 2GB de RAM! Quando o primeiro computador físico apareceu e as linguagens de programação começaram a ser projetadas e implementadas, haviam principalmente 2 mindsets:</p>
+<p>No começo, computadores eram muito lentos, mais lento que executar o Android Studio na sua máquina com 2GB de RAM! Quando o primeiro computador físico apareceu e as linguagens de programação começaram a ser projetadas e implementadas, haviam principalmente 2 mindsets:</p>
 <ol>
     <li>Começar da arquitetura Von Neumann e <b>adicionar abstração</b>;</li>
     <li>Começar da matemática e <b>remover abstração</b>.</li>
