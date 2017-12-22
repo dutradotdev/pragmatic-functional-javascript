@@ -3,9 +3,10 @@
 <blockquote> E deus disse, "deixe que haja funções", e houveram funções. </blockquote>
 
 <p>No começo, computadores eram muito lentos, mais lento que rodas Android Studio na sua máquina com 2GB de RAM! Quando o primeiro computador físico apareceu e as linguagens de programação começaram a ser projetadas e implementadas, haviam principalmente 2 mindsets:</p>
-<ul>
-    1. Começar da arquitetura Von Neumann e <b>adicionar abstração</b>;
-    2. Começar da matemática e <b>remover abstração</b>.
+<ol>
+    <li>Começar da arquitetura Von Neumann e <b>adicionar abstração</b>;</li>
+    <li>Começar da matemática e <b>remover abstração</b>.</li>
+</ol>
 
 <p>Quando tudo começou, lidar com altos níveis de abstração era muito difícil e custoso, memória e armazenamento tinham realmente pouco poder, então linguagens de programação com o paradigma imperativo tiveram maiior visibilidade que o paradigma funcional porque linguagens imperativas tinham um menor nível de abstração então era uma forma mais fácil de implementar e maperar direto no hardware. Pode não ser a melhor maneira de projetas programas e expressar ideias, mas, pelo menos, era fácil de rodar.</p>
 
