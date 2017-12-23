@@ -1,9 +1,5 @@
-Menos é mais
+<h2>Menos é mais</h2>
 
-Neste livro, nós iremos depreciar um monte de coisas que você provavelmente usa em JS. Programação imperativa introduz uma série de declarações para resolver o mesmo tipo de problemas, mas por que isto é um problema? Tendo diferentes formas de solucionar um problema no mesmo contexto e sem uma razão específica para contar uma a outra introduz complexidade. É muito mais fácil entender como uma coisa funciona e construir coisas em volta disso do que aprender como dezenas de coisas funcionam e por que elas estão sendo usadas em um contexto (na maioria das vezes, arbitráriamente). 
+<p>Ter muitas formas de fazer um trabalho e resolver um problema no mesmo contexto é sempre bom, certo? Bem, não sempre. Se você arrancar a maioria das linguages que são usadas amplamente no mercado você terá uma linguagem funcional - e isto também é válido para JavaScript. JavaScript tem laços fortes com Scheme e tem o potencial perfeito para ser uma ótima linguagem funcional. Remover loops, mutabilidade, referências, declarações condicionais, exceções, rótulos, blocos e você terá uma dialeto OCaml com tipagem dinâmica. Estou falando sério, você pode definir funções em JavaScript sem dar importância para a ordem de ocorrência das mesmas, assim como OCaml e Haskell fazem - isto é o que podemos chamar de  elevação e nós vamos estar vendo como tirar vantagem disto nos próximos capítulos.</p>
+<p>Não seja avarento. Você realmente precisa de todas as construções de uma linguagem não endereçada? Nos capítulos deste livro nós iremos descartas uma grande parte do JavaScript e focaremos apenas em um subconjunto expressivo: funções e bindings, isso é tudo que precisamos por hora. Antes de aprender pragramação funcional com JavaScript, nós primeiro precisamos pensar sobre desaprender algumas coisas. Isso é necessário para evitar vícios de linguagem e estimular seu cérebro a resolver problemas de uma forma declarativa. Por hora,você tem que confiar, mas, no decorrer deste livro você verá como tudo faz sentido e se encaixa no propósito.</p>
 
-Comece esquecendo quase tudo o que você sabe sobre declarações JavaScript. Isto será discutido com profundidade em uma outra seção do livro, eu prometo!
-
-Nós focaremos em um problema e na sua solução mais simples e pragmática. Se a solução pode ser reutilizada para outros problemas, então teremos uma vantagem e isto é verdadeiro para a maioria dos problemas.
-
-A fim de aprendar algumas boas práticas da programação funcional, você terá que desaprender algumas más práticas empíricas.
