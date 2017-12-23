@@ -10,6 +10,6 @@
 <li><b>A resolução de problemas pode gerar outros problemas:</b> Se você está preocupado apenas com "terminar esta merda", isso pode ser um pouco controverso para você. Quando você resolve um problema, tenha em mente que a sua solução não é livre de problemas introdutórios que as outras pessoas terão que resolver mais tarde.</li>
 
 <li><b>A ferramenta certa para o trabalho certo:</b> Isto é pragmatismo. Nós selecionamos uma ferramenta que resolve o problema e apresenta o menor número de efeitos colaterais. Há muitas linguagens de programação publicadas e dezenas de paradigmas e eles não são feitos/descobertos únicamente porque "alguém gosta de codificar deste jeito" ou "alguém quer ter seu nome em uma linguagem de programação", mas sim porque novos problemas surgem. É sensato, por exemplo, usar Erlang em um sistema telefônico, Agda em problemas matemáticos e Go em sistemas concorrentes, mas é definitivamente insano usar Brainfuck no desenvolvimento web e PHP no desenvolvimento de um compilador! </li>
-
+</ul>
 <h2>O autor</h2>
 <p>Marcelo Camargo é desenvolvedor e tradutor conhecido no Brasil por defender o paradigma funcional. É o criado da linguagem de programação Quack, da versão não-oficial do Skype para o Linux e contribuidor em uma dezena de projetos open-source. Se você deseja conversar sobre compiladores e teorias de tipos, você pode achá-lo fácilmente no GitHub <a href="https://github.com/haskellcamargo">/haskellcamargo</a></p>
