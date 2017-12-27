@@ -19,14 +19,14 @@ sabendo que não há interdependência entre eles. Uma função que tem algumas 
 
 <h2>Perda de reversabilidade</h2>
 
-<p>Reversabilidade importa muito. Desde 2015, novas ferramentas para desenvolvimento front-end tem emergido e uma boa parte delasé sobre o estado de controle e reversabilidade, como React e Vue. Reversabilidade é sobre ter controle do seu programa e ser capaz para replicar o ponto do seu programa baseado puramente no estado atual. Isso também torna debugar e encontrar erros muito mais fácil porque não reproduzir erros já não pode ser uma desculpa. Quando você tem reversabilidade e controle de estado, coisas complexas se tornam triviais, como restaurar o estado do programa ao reiniciá-lo ou implementar operações de "desfazer" e "refazer".</p>
+<p>Reversabilidade importa muito. Desde 2015, novas ferramentas para desenvolvimento front-end tem emergido e uma boa parte delas é sobre o estado de controle e reversabilidade, como React e Vue. Reversabilidade é sobre ter controle do seu programa e ser capaz para replicar o ponto do seu programa baseado puramente no estado atual. Isso também torna debugar e encontrar erros muito mais fácil porque não reproduzir erros já não pode ser uma desculpa. Quando você tem reversabilidade e controle de estado, coisas complexas se tornam triviais, como restaurar o estado do programa ao reiniciá-lo ou implementar operações de "desfazer" e "refazer".</p>
 
 <h2>Debugar pode ser cansativo</h2>
 <p>E eu não estou brincando. Debugar se torna ainda mais difícil quando você está lidando com múltiplos processos e programação assíncrona. Você já se perguntou como no mundo essa variável teve seu valor alterado? Quando você combina mutabilidade com nulidade, você cria um monstro perigoso. </p>
 
 <h2>Referências podem ser um problema</h2>
 
-<p>E o problema aumenta quando você adiciona referências mutáveis; Elas são,em primeiro lugar, difíceis para otimização do compilador e criam uma bola de neve em qualquer ponto da aplicação que receba uma referência é capaz de mutar o valor esperado pela variável. Referências são muito úteis em algumas situações, mas a não ser que você realmente precise usá-las e saiba o que está fazendo, evite-as. JavaScript tem um problema especial onde alguns métodos trabalham com referências ao invés de valores, e você pode fácilmente perder o controle da situação: </p>
+<p>E o problema aumenta quando você adiciona referências mutáveis; Elas são, em primeiro lugar, difíceis para otimização do compilador e criam uma bola de neve em qualquer ponto da aplicação que receba uma referência é capaz de mutar o valor esperado pela variável. Referências são muito úteis em algumas situações, mas a não ser que você realmente precise usá-las e saiba o que está fazendo, evite-as. JavaScript tem um problema especial onde alguns métodos trabalham com referências ao invés de valores, e você pode fácilmente perder o controle da situação: </p>
 
 <pre><code class="lang-javascript"><span class="hljs-keyword">const</span> list = [<span class="hljs-number">8</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">7</span>, <span class="hljs-number">4</span>]
 <span class="hljs-comment">// The sorted list</span>

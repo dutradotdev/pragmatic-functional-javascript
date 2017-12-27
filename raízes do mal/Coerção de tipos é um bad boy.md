@@ -6,7 +6,7 @@
 <pre><code class="lang-js"><span class="hljs-number">1</span> == <span class="hljs-literal">true</span>
 </code></pre>
 
-<p>Isso é <code>true</code> apenas porque não comparação para diferentes tipos, <code>true</code> do lado direito é convertido para um número (baseado no <code>1</code> do lado esquerdo), nesse caso, <code>true</code> vira <code>1</code>. O operador <code>===</code> evita esta conversão aconteça, e isso é o que será usado à partir deste ponto. </p>
+<p>Isso é <code>true</code> apenas porque não havendo comparação para diferentes tipos, <code>true</code> do lado direito é convertido para um número (baseado no <code>1</code> do lado esquerdo), nesse caso, <code>true</code> vira <code>1</code>. O operador <code>===</code> evita que esta conversão aconteça, e isso é o que será usado à partir deste ponto. </p>
 
 <p>O sistema de tipos de uma linguagem de programação define quais tipos de dados podem existir na linguagem e como as operações podem ser aplicadas a ela, e esse tipo de coisa existe para eviar que o programador atire no próprio pé. Coerção de tipos é sobre <b>implicitamente</b> converter valores incompatíveis quando não há nenhum operador válido para aquele tipo de valor.</p>
 
